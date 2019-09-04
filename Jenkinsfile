@@ -17,7 +17,7 @@ pipeline {
             steps {
                //sendNotifications 'STARTED' 
                //sh 'git_branch_local=$(echo $GIT_BRANCH   | sed -e "s|origin/||g"); echo $git_branch_local;'
-               echo "skipping this stage simply"
+               echo "Simply skipping this stage simply"
                /*sh '''
                 npm install
                 npm run verify-code-style
